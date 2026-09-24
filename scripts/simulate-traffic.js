@@ -229,24 +229,63 @@ async function runSession(browser, index) {
     // sessions aren't silently dropped before they ever reach GTM/GA4.
     userAgent:
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    recordVideo: { dir: "test-results/videos" },
   });
   const page = await context.newPage();
 
-  console.log(`[session ${index + 1}/${SESSIONS_PER_RUN}] profile: ${profile.name}`);
+  const sessionTag = `[session ${index + 1}]`;
+
+  // Ground truth: log every request that actually hits GA4's collect
+  // endpoint. If these never appear, the problem is on the page/script
+  // side (GTM/dataLayer never fired a real network request). If they DO
+  // appear but you still see nothing in GA4, the problem is on the GA4
+  // property/reporting side, not the traffic simulation.
+  page.on("request", (req) => {
+    const url = req.url();
+    if (url.includes("/g/collect") || url.includes("/collect?")) {
+      console.log(`${sessionTag} [GA4 HIT] ${url}`);
+    }
+  });
+
+  // Surface any JS error or console output from the page itself — a silent
+  // JS error in the tracking script would explain events never reaching
+  // the dataLayer in the first place.
+  page.on("console", (msg) => {
+    if (msg.type() === "error") console.log(`${sessionTag} [console.error] ${msg.text()}`);
+  });
+  page.on("pageerror", (err) => {
+    console.log(`${sessionTag} [pageerror] ${err.message}`);
+  });
+
+  console.log(`${sessionTag} profile: ${profile.name}`);
 
   try {
     await page.goto(SITE_URL, { waitUntil: "domcontentloaded" });
     await humanPause(800, 1600);
     await profile.run(page);
   } catch (err) {
-    console.error(`[session ${index + 1}] error during "${profile.name}":`, err.message);
+    console.error(`${sessionTag} error during "${profile.name}":`, err.message);
   } finally {
     await context.close();
   }
 }
 
 async function main() {
-  const browser = await chromium.launch({ headless: true });
+  // Both locally and in CI, we now launch a real, installed Chrome in
+  // *headed* mode — never Playwright's bundled headless Chromium/headless
+  // shell. That headless build's User-Agent and browser fingerprint get
+  // filtered out by GA4's bot detection, which is why earlier runs never
+  // showed up in Analytics even though the script "succeeded".
+  //
+  // Locally this opens a real visible window. In CI (no physical display),
+  // the workflow runs this script under `xvfb-run`, which provides a fake
+  // virtual display so a headed Chrome can still launch on a headless
+  // Linux runner.
+  const browser = await chromium.launch({
+    headless: false,
+    channel: "chrome",
+    slowMo: process.env.GITHUB_ACTIONS ? 0 : 150, // only slow down for local watching
+  });
 
   for (let i = 0; i < SESSIONS_PER_RUN; i++) {
     await runSession(browser, i);
