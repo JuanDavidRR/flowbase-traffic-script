@@ -1,0 +1,13 @@
+{
+  "name": "flowbase-traffic-sim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simulates varied visitor traffic on the Flowbase demo site to generate GTM/GA4 event data for practice.",
+  "type": "commonjs",
+  "scripts": {
+    "simulate": "node scripts/simulate-traffic.js"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

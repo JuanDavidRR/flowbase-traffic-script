@@ -1,0 +1,30 @@
+name: Simulate traffic
+
+on:
+  schedule:
+    # Every 3 hours. GitHub Actions cron runs in UTC.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+    # Lets you trigger a run manually from the Actions tab, useful for
+    # testing before waiting on the schedule.
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.22.2"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run traffic simulation
+        run: npm run simulate
