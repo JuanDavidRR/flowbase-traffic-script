@@ -224,7 +224,11 @@ async function runSession(browser, index) {
   const profile = pickWeightedProfile();
   const context = await browser.newContext({
     viewport: { width: randomInt(1280, 1920), height: randomInt(800, 1080) },
-    userAgent: undefined, // let Playwright use its default per-browser UA
+    // GA4 filters known bot signatures, and Chromium's default headless UA
+    // includes "HeadlessChrome" — swap it for a normal desktop Chrome UA so
+    // sessions aren't silently dropped before they ever reach GTM/GA4.
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
   });
   const page = await context.newPage();
 
