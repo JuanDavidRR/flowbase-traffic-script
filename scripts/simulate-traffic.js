@@ -10,7 +10,7 @@ const { chromium, devices } = require("playwright");
 const SITE_URL = "https://flowbase-psi.vercel.app/";
 
 // How many sessions to simulate per invocation of this script.
-const SESSIONS_PER_RUN = 30;
+const SESSIONS_PER_RUN = 15;
 
 // Share of sessions that use a mobile device profile.
 const MOBILE_SHARE = 0.4;
@@ -250,13 +250,11 @@ function pickWeightedProfile() {
 }
 
 function buildContextOptions() {
-  const recordVideo = { dir: "test-results/videos" };
-
   if (Math.random() < MOBILE_SHARE) {
     // Device descriptors carry `defaultBrowserType`, which newContext()
     // doesn't accept — strip it and keep viewport, UA, touch, scale, etc.
     const { defaultBrowserType, ...mobile } = pick(MOBILE_PROFILES);
-    return { options: { ...mobile, recordVideo }, label: "mobile" };
+    return { options: { ...mobile }, label: "mobile" };
   }
 
   return {
@@ -266,7 +264,6 @@ function buildContextOptions() {
       // includes "HeadlessChrome" — swap it for a normal desktop Chrome UA so
       // sessions aren't silently dropped before they ever reach GTM/GA4.
       userAgent: DESKTOP_UA,
-      recordVideo,
     },
     label: "desktop",
   };
@@ -288,7 +285,8 @@ async function runSession(browser, index) {
   page.on("request", (req) => {
     const url = req.url();
     if (url.includes("/g/collect") || url.includes("/collect?")) {
-      console.log(`${sessionTag} [GA4 HIT] ${url}`);
+      const en = new URL(url).searchParams.get("en");
+      console.log(`${sessionTag} [GA4] ${en ?? "(sin evento)"}`);
     }
   });
 
