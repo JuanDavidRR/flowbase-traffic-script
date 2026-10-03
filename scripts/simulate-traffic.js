@@ -5,16 +5,24 @@
 // profiles" at random, each with a different depth of engagement — from
 // bouncing off the hero to completing the demo form.
 
-const { chromium } = require("playwright");
+const { chromium, devices } = require("playwright");
 
 const SITE_URL = "https://flowbase-psi.vercel.app/";
 
 // How many sessions to simulate per invocation of this script.
-const SESSIONS_PER_RUN = 8;
+const SESSIONS_PER_RUN = 30;
+
+// Share of sessions that use a mobile device profile.
+const MOBILE_SHARE = 0.4;
 
 const FIRST_NAMES = ["Ada", "Grace", "Alan", "Katherine", "Linus", "Margaret", "Tim", "Radia"];
 const LAST_NAMES = ["Lovelace", "Hopper", "Turing", "Johnson", "Torvalds", "Hamilton", "Cook", "Perlman"];
 const COMPANY_NAMES = ["Northpeak", "Lumen & Co", "Orbital Studio", "Fernway", "Kastle", "Bluewire", "Meridian Labs", "Driftwood Media"];
+
+const DESKTOP_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+const MOBILE_PROFILES = [devices["iPhone 13"], devices["Pixel 7"]];
 
 function pick(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -38,6 +46,20 @@ async function humanPause(min = 400, max = 1800) {
 async function scrollDown(page, amount = 600) {
   await page.mouse.wheel(0, amount);
   await humanPause(300, 900);
+}
+
+// Clicks the primary hero CTA. Waits for it to be visible first so we don't
+// click before React hydrates (which would skip the dataLayer push).
+async function clickPrimaryCta(page) {
+  const primaryCta = page.locator('[data-event="cta_click"][data-cta-type="primary"]').first();
+  try {
+    await primaryCta.waitFor({ state: "visible", timeout: 5000 });
+  } catch {
+    return false;
+  }
+  await primaryCta.click();
+  await humanPause();
+  return true;
 }
 
 // ---- Visitor profiles -------------------------------------------------
@@ -92,31 +114,35 @@ async function pricingBrowser(page) {
   }
 }
 
-// Full funnel: hero CTA -> selects a plan -> fills and submits the demo form.
+// Hero CTA -> (maybe) leaves -> (maybe) selects a plan -> fills the demo form
+// -> (maybe) submits. Drop-off at each step so the funnel has a real shape.
 async function converter(page) {
-  const primaryCta = page.locator('[data-event="cta_click"][data-cta-type="primary"]').first();
-  if (await primaryCta.count()) {
-    await primaryCta.click();
-    await humanPause();
-  }
+  await clickPrimaryCta(page);
+
+  // 35% leaves right after the click, without touching the form
+  if (Math.random() < 0.35) return;
 
   await scrollDown(page, 700);
 
   const planButtons = await page.locator('[data-event="select_plan"]').all();
-  if (planButtons.length > 0) {
+  if (planButtons.length > 0 && Math.random() < 0.5) {
     const chosenPlan = pick(planButtons);
     await chosenPlan.scrollIntoViewIfNeeded();
     await chosenPlan.click();
     await humanPause();
   }
 
-  await fillAndMaybeSubmitDemoForm(page, { submit: true });
+  // Of those who start the form, 45% abandon before submitting
+  await fillAndMaybeSubmitDemoForm(page, { submit: Math.random() > 0.45 });
 }
 
 // Starts the demo form (triggers form_start) but abandons without
-// submitting — useful to generate a realistic form_start vs form_submit
-// drop-off rate.
+// submitting. Half of them arrive through the primary CTA so the drop-off
+// also shows up in the CTA funnel.
 async function formAbandoner(page) {
+  if (Math.random() < 0.5) {
+    await clickPrimaryCta(page);
+  }
   await scrollDown(page, 1200);
   await fillAndMaybeSubmitDemoForm(page, { submit: false });
 }
@@ -134,21 +160,24 @@ async function fillAndMaybeSubmitDemoForm(page, { submit }) {
   const firstName = pick(FIRST_NAMES);
   const lastName = pick(LAST_NAMES);
 
+  // Slower, more human typing pace inside the form
+  const formPause = () => humanPause(1500, 6000);
+
   await nameInput.scrollIntoViewIfNeeded();
   await nameInput.click(); // bubbles up via onFocusCapture on the <form> -> form_start
   await nameInput.fill(`${firstName} ${lastName}`);
-  await humanPause();
+  await formPause();
 
   const emailInput = demoForm.locator('input[name="email"]').first();
   if (await emailInput.count()) {
     await emailInput.fill(randomEmail(firstName, lastName));
-    await humanPause();
+    await formPause();
   }
 
   const companyInput = demoForm.locator('input[name="company"]').first();
   if (await companyInput.count()) {
     await companyInput.fill(pick(COMPANY_NAMES));
-    await humanPause();
+    await formPause();
   }
 
   // Company size is a shadcn/Radix Select: a <button> trigger (its id ends
@@ -166,7 +195,7 @@ async function fillAndMaybeSubmitDemoForm(page, { submit }) {
     } else {
       await page.keyboard.press("Escape");
     }
-    await humanPause();
+    await formPause();
   }
 
   if (!submit) return;
@@ -205,7 +234,7 @@ const PROFILES = [
   { name: "bouncer", weight: 3, run: bouncer },
   { name: "curiousReader", weight: 3, run: curiousReader },
   { name: "pricingBrowser", weight: 2, run: pricingBrowser },
-  { name: "converter", weight: 1, run: converter },
+  { name: "converter", weight: 2, run: converter },
   { name: "formAbandoner", weight: 2, run: formAbandoner },
   { name: "newsletterSignup", weight: 1, run: newsletterSignup },
 ];
@@ -220,17 +249,33 @@ function pickWeightedProfile() {
   return PROFILES[0];
 }
 
+function buildContextOptions() {
+  const recordVideo = { dir: "test-results/videos" };
+
+  if (Math.random() < MOBILE_SHARE) {
+    // Device descriptors carry `defaultBrowserType`, which newContext()
+    // doesn't accept — strip it and keep viewport, UA, touch, scale, etc.
+    const { defaultBrowserType, ...mobile } = pick(MOBILE_PROFILES);
+    return { options: { ...mobile, recordVideo }, label: "mobile" };
+  }
+
+  return {
+    options: {
+      viewport: { width: randomInt(1280, 1920), height: randomInt(800, 1080) },
+      // GA4 filters known bot signatures, and Chromium's default headless UA
+      // includes "HeadlessChrome" — swap it for a normal desktop Chrome UA so
+      // sessions aren't silently dropped before they ever reach GTM/GA4.
+      userAgent: DESKTOP_UA,
+      recordVideo,
+    },
+    label: "desktop",
+  };
+}
+
 async function runSession(browser, index) {
   const profile = pickWeightedProfile();
-  const context = await browser.newContext({
-    viewport: { width: randomInt(1280, 1920), height: randomInt(800, 1080) },
-    // GA4 filters known bot signatures, and Chromium's default headless UA
-    // includes "HeadlessChrome" — swap it for a normal desktop Chrome UA so
-    // sessions aren't silently dropped before they ever reach GTM/GA4.
-    userAgent:
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-    recordVideo: { dir: "test-results/videos" },
-  });
+  const { options, label } = buildContextOptions();
+  const context = await browser.newContext(options);
   const page = await context.newPage();
 
   const sessionTag = `[session ${index + 1}]`;
@@ -257,10 +302,14 @@ async function runSession(browser, index) {
     console.log(`${sessionTag} [pageerror] ${err.message}`);
   });
 
-  console.log(`${sessionTag} profile: ${profile.name}`);
+  console.log(`${sessionTag} profile: ${profile.name} (${label})`);
 
   try {
     await page.goto(SITE_URL, { waitUntil: "domcontentloaded" });
+    // Give React/GTM time to hydrate before interacting, so click handlers
+    // exist and dataLayer pushes actually fire. Don't fail if the network
+    // never fully idles (GTM keeps connections open sometimes).
+    await page.waitForLoadState("networkidle", { timeout: 8000 }).catch(() => {});
     await humanPause(800, 1600);
     await profile.run(page);
   } catch (err) {
