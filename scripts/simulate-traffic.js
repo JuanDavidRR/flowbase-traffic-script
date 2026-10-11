@@ -15,9 +15,28 @@ const SESSIONS_PER_RUN = 15;
 // Share of sessions that use a mobile device profile.
 const MOBILE_SHARE = 0.4;
 
+// Share of sessions that arrive with UTM params. The rest land as "direct".
+const UTM_SHARE = 0.85;
+
+// For profiles that go for the demo form (converter, formAbandoner), share of
+// sessions that land with the #demo-request anchor in the URL.
+const DEMO_HASH_SHARE = 0.5;
+
 const FIRST_NAMES = ["Ada", "Grace", "Alan", "Katherine", "Linus", "Margaret", "Tim", "Radia"];
 const LAST_NAMES = ["Lovelace", "Hopper", "Turing", "Johnson", "Torvalds", "Hamilton", "Cook", "Perlman"];
 const COMPANY_NAMES = ["Northpeak", "Lumen & Co", "Orbital Studio", "Fernway", "Kastle", "Bluewire", "Meridian Labs", "Driftwood Media"];
+
+// Realistic source/medium pairs with the campaigns that make sense for each.
+// Edit freely to match the exercises you're running.
+const UTM_COMBOS = [
+  { source: "google", medium: "cpc", campaigns: ["fall_launch", "brand_search", "retargeting_q4"] },
+  { source: "bing", medium: "cpc", campaigns: ["fall_launch", "brand_search"] },
+  { source: "linkedin", medium: "paid_social", campaigns: ["fall_launch", "abm_enterprise"] },
+  { source: "facebook", medium: "paid_social", campaigns: ["retargeting_q4", "webinar_promo"] },
+  { source: "newsletter", medium: "email", campaigns: ["october_digest", "product_update"] },
+  { source: "twitter", medium: "social", campaigns: ["founder_thread", "fall_launch"] },
+  { source: "producthunt", medium: "referral", campaigns: ["launch_day"] },
+];
 
 const DESKTOP_UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
@@ -32,9 +51,37 @@ function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function randomEmail(firstName, lastName) {
-  const domain = pick(["example.com", "mail.com", "test-inbox.dev"]);
-  return `${firstName.toLowerCase()}.${lastName.toLowerCase()}${randomInt(1, 999)}@${domain}`;
+// "Bluewire" -> "bluewire", "Lumen & Co" -> "lumenco", "Meridian Labs" -> "meridianlabs"
+function companyToDomain(companyName) {
+  return `${companyName.toLowerCase().replace(/[^a-z0-9]/g, "")}.com`;
+}
+
+// Work-style email: the domain always comes from the company name, never a
+// personal provider (gmail, outlook, yahoo...).
+// e.g. company "Bluewire" -> alan.hamilton283@bluewire.com
+function randomEmail(firstName, lastName, companyName) {
+  return `${firstName.toLowerCase()}.${lastName.toLowerCase()}${randomInt(1, 999)}@${companyToDomain(companyName)}`;
+}
+
+// Builds the landing URL with (usually) random UTM params, e.g.
+// https://flowbase-psi.vercel.app/?utm_source=google&utm_medium=cpc&utm_campaign=fall_launch#demo-request
+function buildLandingUrl({ withDemoHash = false } = {}) {
+  const url = new URL(SITE_URL);
+  let utm = null;
+
+  if (Math.random() < UTM_SHARE) {
+    const combo = pick(UTM_COMBOS);
+    utm = { source: combo.source, medium: combo.medium, campaign: pick(combo.campaigns) };
+    url.searchParams.set("utm_source", utm.source);
+    url.searchParams.set("utm_medium", utm.medium);
+    url.searchParams.set("utm_campaign", utm.campaign);
+  }
+
+  if (withDemoHash && Math.random() < DEMO_HASH_SHARE) {
+    url.hash = "demo-request";
+  }
+
+  return { href: url.toString(), utm };
 }
 
 // Small human-like pause between actions, so events don't fire in an
@@ -159,6 +206,8 @@ async function fillAndMaybeSubmitDemoForm(page, { submit }) {
 
   const firstName = pick(FIRST_NAMES);
   const lastName = pick(LAST_NAMES);
+  // Picked up front so the email domain matches the company typed below.
+  const companyName = pick(COMPANY_NAMES);
 
   // Slower, more human typing pace inside the form
   const formPause = () => humanPause(1500, 6000);
@@ -170,13 +219,13 @@ async function fillAndMaybeSubmitDemoForm(page, { submit }) {
 
   const emailInput = demoForm.locator('input[name="email"]').first();
   if (await emailInput.count()) {
-    await emailInput.fill(randomEmail(firstName, lastName));
+    await emailInput.fill(randomEmail(firstName, lastName, companyName));
     await formPause();
   }
 
   const companyInput = demoForm.locator('input[name="company"]').first();
   if (await companyInput.count()) {
-    await companyInput.fill(pick(COMPANY_NAMES));
+    await companyInput.fill(companyName);
     await formPause();
   }
 
@@ -219,7 +268,8 @@ async function newsletterSignup(page) {
   if (await newsletterEmail.count()) {
     await newsletterEmail.scrollIntoViewIfNeeded();
     await newsletterEmail.click(); // triggers newsletter_start via focus
-    await newsletterEmail.fill(randomEmail(pick(FIRST_NAMES), pick(LAST_NAMES)));
+    // No company field here, so just use a random company for the domain.
+    await newsletterEmail.fill(randomEmail(pick(FIRST_NAMES), pick(LAST_NAMES), pick(COMPANY_NAMES)));
     await humanPause();
 
     const submitButton = page.getByRole("button", { name: "Subscribe" });
@@ -230,12 +280,13 @@ async function newsletterSignup(page) {
   }
 }
 
+// `demoHash: true` means this profile may land with #demo-request in the URL.
 const PROFILES = [
   { name: "bouncer", weight: 3, run: bouncer },
   { name: "curiousReader", weight: 3, run: curiousReader },
   { name: "pricingBrowser", weight: 2, run: pricingBrowser },
-  { name: "converter", weight: 2, run: converter },
-  { name: "formAbandoner", weight: 2, run: formAbandoner },
+  { name: "converter", weight: 2, run: converter, demoHash: true },
+  { name: "formAbandoner", weight: 2, run: formAbandoner, demoHash: true },
   { name: "newsletterSignup", weight: 1, run: newsletterSignup },
 ];
 
@@ -272,6 +323,7 @@ function buildContextOptions() {
 async function runSession(browser, index) {
   const profile = pickWeightedProfile();
   const { options, label } = buildContextOptions();
+  const { href: landingUrl, utm } = buildLandingUrl({ withDemoHash: Boolean(profile.demoHash) });
   const context = await browser.newContext(options);
   const page = await context.newPage();
 
@@ -301,9 +353,12 @@ async function runSession(browser, index) {
   });
 
   console.log(`${sessionTag} profile: ${profile.name} (${label})`);
+  console.log(
+    `${sessionTag} utm: ${utm ? `${utm.source} / ${utm.medium} / ${utm.campaign}` : "(direct, sin utm)"} -> ${landingUrl}`
+  );
 
   try {
-    await page.goto(SITE_URL, { waitUntil: "domcontentloaded" });
+    await page.goto(landingUrl, { waitUntil: "domcontentloaded" });
     // Give React/GTM time to hydrate before interacting, so click handlers
     // exist and dataLayer pushes actually fire. Don't fail if the network
     // never fully idles (GTM keeps connections open sometimes).
