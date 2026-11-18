@@ -1,0 +1,5942 @@
+[
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "cloverleaf.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "polymerhq.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "spokn.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact sales",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "suiteop.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Talk to sales",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "berylliuminfosec.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Get a Cuick Trac™ demo today!",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "click",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "el CTA lleva a otro dominio"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Let's Get Started ->",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "cycoresecure.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "CONTACT US",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "PRICING",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "casebook.net",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;gtm.dom",
+        "meta_events": "SubscribedButtonClick;InitiateCheckout;PageView;gtm.load",
+        "internal_events_to_analytics": "gtm.dom;gtm.load",
+        "google_ads_conv": 2,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | GA4/Meta recibe eventos internos de GTM (gtm.*): revisar a mano"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;gtm.dom",
+        "meta_events": "SubscribedButtonClick;PageView;gtm.load",
+        "internal_events_to_analytics": "gtm.dom;gtm.load",
+        "google_ads_conv": 1,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | GA4/Meta recibe eventos internos de GTM (gtm.*): revisar a mano"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "cylerian.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign Up",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "hellorep.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "cta_click;cta_click",
+        "ga4_events": "cta_click;book_demo_click",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free trial",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "cta_click;cta_click",
+        "ga4_events": "cta_click;start_trial_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "konaai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;Scroll Depth",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;Scroll Depth",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "knock-ai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_schedule_modal_open",
+        "ga4_events": "scroll;schedule_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Get Started",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_chat_modal_open",
+        "ga4_events": "chat_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Knock AI Team",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_chat_modal_open",
+        "ga4_events": "chat_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "relaycommerce.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "BOOK A DEMO",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "qualytics.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Click to schedule a demo",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Click to go to Free Trial",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "steg.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Sales",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "xverum.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Get in touch",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "rocket.net",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "discern.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "ioriver.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "GET FREE DEMO",
+        "verdict": "EVENTO_GENERICO",
+        "dl_custom_events": "",
+        "ga4_events": "general_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "EVENTO_GENERICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;general_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "ledge.co",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "thatsnoble.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "pandium.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "entitle.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Get a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "frontrol.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a demo",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "maxyfi.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "zoneomics.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;ads_conversion_Shopping_Cart_1;scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 2,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "oversee-ai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Speak with an Expert",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "rebill.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Get Started",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "web-landingPage_scrolled",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "web-landingPage_scrolled",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "playzizo.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 1,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "sembly.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "book_demo_click",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free →",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T16:57:36.253Z",
+    "domain": "tourial.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start Free Trial",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "cloverleaf.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a demo",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "spokn.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact sales",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "polymerhq.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "suiteop.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Talk to sales",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "berylliuminfosec.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Get a Cuick Trac™ demo today!",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "click",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "el CTA lleva a otro dominio"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Let's Get Started ->",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "cycoresecure.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "CONTACT US",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "PRICING",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "casebook.net",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;gtm.dom",
+        "meta_events": "SubscribedButtonClick;InitiateCheckout;PageView;gtm.load",
+        "internal_events_to_analytics": "gtm.dom;gtm.load",
+        "google_ads_conv": 2,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | GA4/Meta recibe eventos internos de GTM (gtm.*): revisar a mano"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;gtm.dom",
+        "meta_events": "SubscribedButtonClick;PageView;gtm.load",
+        "internal_events_to_analytics": "gtm.dom;gtm.load",
+        "google_ads_conv": 1,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | GA4/Meta recibe eventos internos de GTM (gtm.*): revisar a mano"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "cylerian.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign Up",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "hellorep.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "cta_click;cta_click",
+        "ga4_events": "cta_click;book_demo_click",
+        "meta_events": "PageView;SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free trial",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "cta_click;cta_click",
+        "ga4_events": "cta_click;start_trial_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "konaai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;Scroll Depth",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;Scroll Depth",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "knock-ai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_schedule_modal_open",
+        "ga4_events": "scroll;schedule_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Get Started",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_chat_modal_open",
+        "ga4_events": "chat_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Knock AI Team",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_chat_modal_open",
+        "ga4_events": "chat_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "relaycommerce.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "BOOK A DEMO",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "qualytics.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Click to schedule a demo",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Click to go to Free Trial",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "steg.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Sales",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "xverum.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Get in touch",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "rocket.net",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "discern.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "ioriver.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "GET FREE DEMO",
+        "verdict": "EVENTO_GENERICO",
+        "dl_custom_events": "",
+        "ga4_events": "general_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "EVENTO_GENERICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;general_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "ledge.co",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "thatsnoble.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "pandium.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "entitle.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Get a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "frontrol.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a demo",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "maxyfi.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "zoneomics.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;ads_conversion_Shopping_Cart_1;scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 2,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "oversee-ai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Speak with an Expert",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "rebill.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Get Started",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "web-landingPage_scrolled",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "web-landingPage_scrolled",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "playzizo.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 1,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "sembly.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "book_demo_click",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free →",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-26T17:09:30.857Z",
+    "domain": "tourial.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start Free Trial",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "cloverleaf.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "suiteop.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Talk to sales",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "spokn.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact sales",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "polymerhq.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "berylliuminfosec.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Get a Cuick Trac™ demo today!",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "click",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "el CTA lleva a otro dominio"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Let's Get Started ->",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "cycoresecure.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "CONTACT US",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "PRICING",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "casebook.net",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;gtm.dom",
+        "meta_events": "InitiateCheckout;PageView;gtm.load",
+        "internal_events_to_analytics": "gtm.dom;gtm.load",
+        "google_ads_conv": 2,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | GA4/Meta recibe eventos internos de GTM (gtm.*): revisar a mano"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;gtm.dom",
+        "meta_events": "PageView;gtm.load",
+        "internal_events_to_analytics": "gtm.dom;gtm.load",
+        "google_ads_conv": 1,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | GA4/Meta recibe eventos internos de GTM (gtm.*): revisar a mano"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "cylerian.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign Up",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "hellorep.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "cta_click;cta_click",
+        "ga4_events": "cta_click;book_demo_click",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free trial",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "cta_click;cta_click",
+        "ga4_events": "cta_click;start_trial_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "konaai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "Scroll Depth;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;Scroll Depth",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "knock-ai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_schedule_modal_open",
+        "ga4_events": "scroll;schedule_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Get Started",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_chat_modal_open",
+        "ga4_events": "chat_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Knock AI Team",
+        "verdict": "EVENTO_PROPIO",
+        "dl_custom_events": "knock_chat_modal_open",
+        "ga4_events": "chat_modal_open",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "relaycommerce.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "BOOK A DEMO",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "qualytics.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Click to schedule a demo",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Click to go to Free Trial",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "steg.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Sales",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "xverum.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Get in touch",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "rocket.net",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "NO_MEDIBLE",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "dataLayer no legible tras el clic"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "discern.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "ioriver.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "GET FREE DEMO",
+        "verdict": "EVENTO_GENERICO",
+        "dl_custom_events": "",
+        "ga4_events": "general_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "EVENTO_GENERICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;general_click",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "ledge.co",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "pandium.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "thatsnoble.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "entitle.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Get a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "frontrol.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a demo",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "maxyfi.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "zoneomics.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view;ads_conversion_Shopping_Cart_1",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 2,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "oversee-ai.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Speak with an Expert",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "rebill.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Get Started",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "web-landingPage_scrolled",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "web-landingPage_scrolled",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "playzizo.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Schedule a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll;page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 1,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "sembly.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "book_demo_click",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free →",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "breakthroughapps.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Free Demo!",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "click",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "el CTA lleva a otro dominio"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "doorspaceinc.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "tourial.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start Free Trial",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "yourco.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Try For Free",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "entrilia.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "jeenaminfotech.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "niloom.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign up",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "p6technologies.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "mygoods.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;scroll",
+        "meta_events": "SubscribedButtonClick;AddToCart;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "SubscribedButtonClick;PageView",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "mergerware.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "REQUEST DEMO",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "CONTACT US",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "qwegle.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "ptogenius.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Sign Up For Free",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view;scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "equipt.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "superconstruct.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Request a Demo",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies | el CTA lleva a otro dominio"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "Start free trial →",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "se hizo clic en banner de cookies"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "unplugdining.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "CLICK_FALLO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "clic falló: locator.click: Timeout 5000ms exceeded."
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "forecastable.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "page_view",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "lakefusion.ai",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact Us",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "proof.io",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Demo →",
+        "verdict": "NADA",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-28T01:07:42.141Z",
+    "domain": "vartana.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a Demo",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "scroll",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact sales",
+        "verdict": "SOLO_PIXELES",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-10-29T23:20:12.897Z",
+    "domain": "suiteop.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "Book a demo",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Talk to sales",
+        "verdict": "EVENTO_SIN_DESTINO",
+        "dl_custom_events": "cta_click",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": "empuja un evento propio al dataLayer pero no vi ningún evento propio llegar a GA4 en la ventana: revisar a mano si hay una etiqueta GA4 que lo use"
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "Pricing",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "SubscribedButtonClick",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "run_id": "2026-11-18T15:40:04.419Z",
+    "domain": "formsdesigns.com",
+    "rows": [
+      {
+        "cta_type": "demo",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "trial",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "contact",
+        "cta_text": "Contact",
+        "verdict": "SOLO_AUTOMATICO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      },
+      {
+        "cta_type": "pricing",
+        "cta_text": "",
+        "verdict": "NO_ENCONTRADO",
+        "dl_custom_events": "",
+        "ga4_events": "",
+        "meta_events": "",
+        "internal_events_to_analytics": "",
+        "google_ads_conv": 0,
+        "linkedin_conversions": 0,
+        "notes": ""
+      }
+    ]
+  }
+]

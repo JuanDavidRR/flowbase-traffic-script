@@ -5,7 +5,12 @@
   "description": "Simulates varied visitor traffic on the Flowbase demo site to generate GTM/GA4 event data for practice.",
   "type": "commonjs",
   "scripts": {
-    "simulate": "node scripts/simulate-traffic.js"
+    "simulate": "node scripts/simulate-traffic.js",
+    "gtm": "node scripts/simulate-gtm.js",
+    "segment": "node scripts/segment.js",
+    "audit": "npm run gtm && npm run segment",
+    "clicktest": "node scripts/click-test.js",
+    "report": "node scripts/report.js"
   },
   "dependencies": {
     "playwright": "^1.63.0"

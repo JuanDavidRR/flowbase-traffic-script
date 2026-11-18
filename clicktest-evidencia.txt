@@ -1,0 +1,9 @@
+﻿=== formsdesigns.com | contact | "Contact" | SOLO_AUTOMATICO ===
+Enlace del boton: /contact/
+Entradas nuevas en el dataLayer tras el clic:
+  - (no se pudo serializar)
+  - (no se pudo serializar)
+Envios de analitica en los 10 s tras el clic:
+  +0.9s POST Otra herramienta -> f.clarity.ms
+  +1.2s POST Otra herramienta -> f.clarity.ms
+  +10.2s POST Otra herramienta -> f.clarity.ms

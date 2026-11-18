@@ -1,0 +1,93 @@
+[
+  {
+    "domain": "formsdesigns.com",
+    "cta_type": "demo",
+    "cta_text": "",
+    "cta_tag": "",
+    "cta_href": "",
+    "verdict": "NO_ENCONTRADO",
+    "dl_new_events": "",
+    "dl_custom_events": "",
+    "ga4_events": "",
+    "meta_events": "",
+    "linkedin_hits": 0,
+    "linkedin_conversions": 0,
+    "google_ads_conv": 0,
+    "internal_events_to_analytics": "",
+    "notes": ""
+  },
+  {
+    "domain": "formsdesigns.com",
+    "cta_type": "trial",
+    "cta_text": "",
+    "cta_tag": "",
+    "cta_href": "",
+    "verdict": "NO_ENCONTRADO",
+    "dl_new_events": "",
+    "dl_custom_events": "",
+    "ga4_events": "",
+    "meta_events": "",
+    "linkedin_hits": 0,
+    "linkedin_conversions": 0,
+    "google_ads_conv": 0,
+    "internal_events_to_analytics": "",
+    "notes": ""
+  },
+  {
+    "domain": "formsdesigns.com",
+    "cta_type": "contact",
+    "cta_text": "Contact",
+    "cta_tag": "a",
+    "cta_href": "/contact/",
+    "verdict": "SOLO_AUTOMATICO",
+    "dl_new_events": "gtm.click;gtm.linkClick",
+    "dl_custom_events": "",
+    "ga4_events": "",
+    "meta_events": "",
+    "linkedin_hits": 0,
+    "linkedin_conversions": 0,
+    "google_ads_conv": 0,
+    "internal_events_to_analytics": "",
+    "notes": "",
+    "evidence": {
+      "dataLayer": [
+        "(no se pudo serializar)",
+        "(no se pudo serializar)"
+      ],
+      "requests": [
+        {
+          "ms": 867,
+          "method": "POST",
+          "label": "Otra herramienta -> f.clarity.ms"
+        },
+        {
+          "ms": 1219,
+          "method": "POST",
+          "label": "Otra herramienta -> f.clarity.ms"
+        },
+        {
+          "ms": 10196,
+          "method": "POST",
+          "label": "Otra herramienta -> f.clarity.ms"
+        }
+      ]
+    }
+  },
+  {
+    "domain": "formsdesigns.com",
+    "cta_type": "pricing",
+    "cta_text": "",
+    "cta_tag": "",
+    "cta_href": "",
+    "verdict": "NO_ENCONTRADO",
+    "dl_new_events": "",
+    "dl_custom_events": "",
+    "ga4_events": "",
+    "meta_events": "",
+    "linkedin_hits": 0,
+    "linkedin_conversions": 0,
+    "google_ads_conv": 0,
+    "internal_events_to_analytics": "",
+    "notes": ""
+  }
+]
